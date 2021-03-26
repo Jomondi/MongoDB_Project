@@ -1,7 +1,5 @@
 import pymongo, ssl
 
-page_title = "Hospital Information"
-
 connection = pymongo.MongoClient(
     "mongodb+srv://<username>:<password>@cluster0.lbtqn.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
     ssl=True, ssl_cert_reqs=ssl.CERT_NONE)
